@@ -30,22 +30,42 @@
         </a>
     </div>
 </section>
-<section>
-    <div>
-        <h2>Best-Selling Items in FHome</h2>
+<section class="product-slider">
+    <div class="product-slider text">
+        <h2 class="text__title">Best-Selling Items in FHome</h2>
+        <a class="text__see-more" href="#">ALL PRODUCTS</a>
     </div>
-    <div class="product-slider" id="product-slider">
     <!-- This div will contain images and buttons for slider -->
-    <div class="product-slider navigation">
-        <div class="navigation__previous-button"><</div>
-        <div class="navigation__next-button">></div>
-      </div>
-      <div>
-        <a href="#">
-            <img src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
-        </a>
-        <a href="#" alt="Snitch Cabinet"></a>
-        <p>$90,00USD</p>
-        <button type="button">Add to Cart</button>
+    <div class="product-slider content" id="product-slider">
+        <div class="content navigation-button">
+            <div class="navigation-button__previous"><</div>
+            <div class="navigation-button__next">></div>
+        </div>
+            <div class="product-slider image">
+                <a class="image__link" href="#">
+                    <img class="image__icon" src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
+                </a>
+                <a class="image__text" href="#">Snitch Cabinet</a>
+                <p class="image__price">$90,00USD</p>
+                <button class="image__button" type="button">Add to Cart</button>
+                <a class="image__link" href="#">
+                    <img class="image__icon" src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
+                </a>
+                <a class="image__text" href="#">Snitch Cabinet</a>
+                <p class="image__price">$90,00USD</p>
+                <button class="image__button" type="button">Add to Cart</button>
+                <a class="image__link" href="#">
+                    <img class="image__icon" src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
+                </a>
+                <a class="image__text" href="#">Snitch Cabinet</a>
+                <p class="image__price">$90,00USD</p>
+                <button class="image__button" type="button">Add to Cart</button>
+                <a class="image__link" href="#">
+                    <img class="image__icon" src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
+                </a>
+                <a class="image__text" href="#">Snitch Cabinet</a>
+                <p class="image__price">$90,00USD</p>
+                <button class="image__button" type="button">Add to Cart</button>
+            </div>
     </div>
 </section>
