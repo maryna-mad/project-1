@@ -9,24 +9,43 @@
             wide selection of styles, fabrics, and finishes, we are sure to have something to fit your taste.</p>
     </div>
     <div class="offer__menu menu">
-        <a class="menu__bedroom-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__bedroom-icon" src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">- Bedroom -
         </a>
-        <a class="menu__kitchen-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__kitchen-icon" src="img/kitchen-icon.svg" alt="Kitchen Icon Logo">- Kitchen -
         </a>
-        <a class="menu__homeoffice-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__homeoffice-icon" src="img/home-office-icon.svg" alt="Home Office Icon Logo">- Home Office -
         </a>
-        <a class="menu__garden-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__garden-icon" src="img/garden-icon.svg" alt="Garden Icon Logo">- Garden -
         </a>
-        <a class="menu__hallfurniture-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__hallfurniture-icon" src="img/hall-furniture-icon.svg" alt="Hall Furniture Icon Logo">- Hall Furniture -
         </a>
-        <a class="menu__livingroom-link" href="#">
+        <a class="menu__link" href="#">
             <img width="50" class="menu__livingroom-icon" src="img/living-room-icon.svg" alt="Living Room Icon Logo">-
             Living Room -
         </a>
+    </div>
+</section>
+<section>
+    <div>
+        <h2>Best-Selling Items in FHome</h2>
+    </div>
+    <div class="product-slider" id="product-slider">
+    <!-- This div will contain images and buttons for slider -->
+    <div class="product-slider navigation">
+        <div class="navigation__previous-button"><</div>
+        <div class="navigation__next-button">></div>
+      </div>
+      <div>
+        <a href="#">
+            <img src="img/bedroom-icon.svg" alt="Bedroom Icon Logo">
+        </a>
+        <a href="#" alt="Snitch Cabinet"></a>
+        <p>$90,00USD</p>
+        <button type="button">Add to Cart</button>
     </div>
 </section>
